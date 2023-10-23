@@ -1,0 +1,144 @@
+* {
+    font-family: Huy;
+}
+
+a {
+    border: none;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* header */
+
+header {
+    display: flex;
+    padding: 27px 0;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    width: 130px;
+    height: 35px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 45px;
+}
+
+.nav-link {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    line-height: 24px;
+    cursor: alias;
+
+}
+
+.nav-link:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.nav-line {
+    border-bottom: 0.5px solid black;
+    height: 1px;
+    width: 20px;
+    display: none;
+
+}
+
+.nav-link:hover .nav-line {
+    display: block;
+}
+
+.nav-serch-btn{
+    width: 14px;
+    height: 14px;
+    background-image: url("../img/serch.svg");
+    border: none;
+    background-size: cover;
+    background-color: transparent;
+  }
+
+/* HERO */
+
+.hero {
+    padding: 115px 0;
+
+    background-image: url(../img/about-hero-background.jpg);
+
+}
+
+.hero-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 45px;
+}
+
+.hero-title {
+    font-size: 48px;
+    line-height: 52px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 30px;
+}
+
+.hero-text {
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+ /* footer */
+ .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 0 47px;
+    gap: 25px;
+  }
+  
+  .footer-logo {
+    width: 130px;
+    height: 35px;
+  }
+  
+  .footer-list {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .footer-link {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../img/footer-link.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+  }
+  
+  .footer-text {
+    font-size: 13px;
+    color: rgb(156, 156, 156);
+    text-transform: uppercase;
+  }
+  
+  .footer-text-bord {
+    color: #000;
+  }
