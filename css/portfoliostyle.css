@@ -47,17 +47,7 @@ header {
     font-weight: bold;
 }
 
-.nav-line {
-    border-bottom: 0.5px solid black;
-    height: 1px;
-    width: 20px;
-    display: none;
 
-}
-
-.nav-link:hover .nav-line {
-    display: block;
-}
 
 .nav-serch-btn{
     width: 14px;
