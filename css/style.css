@@ -59,6 +59,16 @@ header {
   display: block;
 }
 
+.nav-serch-btn{
+  width: 14px;
+  height: 14px;
+  background-image: url("../img/serch.svg");
+  border: none;
+  background-size: cover;
+  background-color: transparent;
+}
+
+
 /* HERO */
 
 .hero {
@@ -114,12 +124,23 @@ header {
 
 .product-list {
   display: flex;
-  gap: 17px;
+  gap: 10px;
 }
 
-/* .product-item{
+.product-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
-} */
+.product-name {
+  color: rgb(119, 119, 119);
+}
+
+.product-slash {
+  font-size: 24px;
+  color: rgb(218, 218, 218);
+}
 
 .product-box {
   display: flex;
@@ -136,6 +157,73 @@ header {
   gap: 34px;
 }
 
+.example{
+  background-image: url("../img/pr.jpg");
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 360px;
+  position: relative;
+}
+
+.example-one{
+  background-image: url("../img/pre.jpg");
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 250px;
+  position: relative;
+}
+
+.example-too{
+  background-image: url("../img/preo.jpg");
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 450px;
+  position: relative;
+}
+
+
+.example-plus{
+  font-size: 40px;
+  color: rgb(207, 207, 207);
+  display: none;
+}
+
+.example:hover .example-plus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .4);
+}
+
+.example-one:hover .example-plus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .4);
+}
+
+.example-too:hover .example-plus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .4);
+}
+
 .product-btn {
   cursor: pointer;
   width: 125px;
@@ -149,10 +237,12 @@ header {
   margin-top: 15px;
 }
 
-.product-btn:hover{
+.product-btn:hover {
   background-color: rgb(180, 180, 180);
 }
 
+
+/* footer */
 .footer {
   display: flex;
   flex-direction: column;
