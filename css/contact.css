@@ -38,8 +38,7 @@ header {
     color: rgb(119, 119, 119);
     font-size: 14px;
     line-height: 24px;
-    cursor: alias;
-
+    cursor: pointer;
 }
 
 .nav-link:hover {
