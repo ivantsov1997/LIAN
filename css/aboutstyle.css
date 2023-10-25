@@ -46,6 +46,17 @@ header {
     font-weight: bold;
 }
 
+
+.nav-serch-btn{
+    width: 14px;
+    height: 14px;
+    background-image: url("../img/serch.svg");
+    border: none;
+    background-size: cover;
+    background-color: transparent;
+  }
+
+
 /* HERO */
 
 .hero {
